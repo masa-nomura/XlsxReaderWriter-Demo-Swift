@@ -15,6 +15,11 @@
 		0235658F20D9CFED00575CE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0235658D20D9CFED00575CE1 /* LaunchScreen.storyboard */; };
 		0235659A20D9CFED00575CE1 /* iWakkaRecordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0235659920D9CFED00575CE1 /* iWakkaRecordsTests.swift */; };
 		023565A520D9CFED00575CE1 /* iWakkaRecordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023565A420D9CFED00575CE1 /* iWakkaRecordsUITests.swift */; };
+		023565B520D9D0A900575CE1 /* XlsxWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 023565B420D9D0A900575CE1 /* XlsxWrapper.m */; };
+		023565B920D9D7C300575CE1 /* test.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 023565B820D9D7B900575CE1 /* test.xlsx */; };
+		6AFEA038AABD8A2F5F0C6076 /* libPods-iWakkaRecordsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AB560050CDF150035022F6 /* libPods-iWakkaRecordsTests.a */; };
+		949164825E9C66C68AC2B2F7 /* libPods-iWakkaRecords.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6872D8A909BA2516C0675B32 /* libPods-iWakkaRecords.a */; };
+		B9C172E3D0D013A63DB89728 /* libPods-iWakkaRecordsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B0791677D1C3D671E03253 /* libPods-iWakkaRecordsUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,19 @@
 		023565A020D9CFED00575CE1 /* iWakkaRecordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iWakkaRecordsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		023565A420D9CFED00575CE1 /* iWakkaRecordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWakkaRecordsUITests.swift; sourceTree = "<group>"; };
 		023565A620D9CFED00575CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		023565B220D9D0A800575CE1 /* iWakkaRecords-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iWakkaRecords-Bridging-Header.h"; sourceTree = "<group>"; };
+		023565B320D9D0A900575CE1 /* XlsxWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XlsxWrapper.h; sourceTree = "<group>"; };
+		023565B420D9D0A900575CE1 /* XlsxWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XlsxWrapper.m; sourceTree = "<group>"; };
+		023565B820D9D7B900575CE1 /* test.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.xlsx; sourceTree = "<group>"; };
+		0AFF6B8B1D9E0B4BB03CBF20 /* Pods-iWakkaRecordsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWakkaRecordsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iWakkaRecordsTests/Pods-iWakkaRecordsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6872D8A909BA2516C0675B32 /* libPods-iWakkaRecords.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iWakkaRecords.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A20810B749F172E3149F58 /* Pods-iWakkaRecords.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWakkaRecords.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iWakkaRecords/Pods-iWakkaRecords.debug.xcconfig"; sourceTree = "<group>"; };
+		88F6100F09F975041031F78A /* Pods-iWakkaRecordsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWakkaRecordsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iWakkaRecordsTests/Pods-iWakkaRecordsTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4FA873FF61E3992696DF203 /* Pods-iWakkaRecordsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWakkaRecordsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iWakkaRecordsUITests/Pods-iWakkaRecordsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D2B0791677D1C3D671E03253 /* libPods-iWakkaRecordsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iWakkaRecordsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D1B848408704D2C98FB552 /* Pods-iWakkaRecordsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWakkaRecordsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iWakkaRecordsUITests/Pods-iWakkaRecordsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9AB560050CDF150035022F6 /* libPods-iWakkaRecordsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iWakkaRecordsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACB5DAA8C25D75F9C961022 /* Pods-iWakkaRecords.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWakkaRecords.release.xcconfig"; path = "Pods/Target Support Files/Pods-iWakkaRecords/Pods-iWakkaRecords.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				949164825E9C66C68AC2B2F7 /* libPods-iWakkaRecords.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AFEA038AABD8A2F5F0C6076 /* libPods-iWakkaRecordsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9C172E3D0D013A63DB89728 /* libPods-iWakkaRecordsUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				0235659820D9CFED00575CE1 /* iWakkaRecordsTests */,
 				023565A320D9CFED00575CE1 /* iWakkaRecordsUITests */,
 				0235657F20D9CFEC00575CE1 /* Products */,
+				9EBD7734900A71AF744EE8D2 /* Pods */,
+				58FFDBFDBD7D57C441B61C91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +122,9 @@
 		0235658020D9CFEC00575CE1 /* iWakkaRecords */ = {
 			isa = PBXGroup;
 			children = (
+				023565B820D9D7B900575CE1 /* test.xlsx */,
+				023565B320D9D0A900575CE1 /* XlsxWrapper.h */,
+				023565B420D9D0A900575CE1 /* XlsxWrapper.m */,
 				0235658120D9CFED00575CE1 /* AppDelegate.swift */,
 				0235658320D9CFED00575CE1 /* ViewController.swift */,
 				0235658520D9CFED00575CE1 /* Main.storyboard */,
@@ -106,6 +132,7 @@
 				0235658D20D9CFED00575CE1 /* LaunchScreen.storyboard */,
 				0235659020D9CFED00575CE1 /* Info.plist */,
 				0235658820D9CFED00575CE1 /* iWakkaRecords.xcdatamodeld */,
+				023565B220D9D0A800575CE1 /* iWakkaRecords-Bridging-Header.h */,
 			);
 			path = iWakkaRecords;
 			sourceTree = "<group>";
@@ -128,6 +155,29 @@
 			path = iWakkaRecordsUITests;
 			sourceTree = "<group>";
 		};
+		58FFDBFDBD7D57C441B61C91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6872D8A909BA2516C0675B32 /* libPods-iWakkaRecords.a */,
+				E9AB560050CDF150035022F6 /* libPods-iWakkaRecordsTests.a */,
+				D2B0791677D1C3D671E03253 /* libPods-iWakkaRecordsUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EBD7734900A71AF744EE8D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79A20810B749F172E3149F58 /* Pods-iWakkaRecords.debug.xcconfig */,
+				EACB5DAA8C25D75F9C961022 /* Pods-iWakkaRecords.release.xcconfig */,
+				0AFF6B8B1D9E0B4BB03CBF20 /* Pods-iWakkaRecordsTests.debug.xcconfig */,
+				88F6100F09F975041031F78A /* Pods-iWakkaRecordsTests.release.xcconfig */,
+				D4D1B848408704D2C98FB552 /* Pods-iWakkaRecordsUITests.debug.xcconfig */,
+				A4FA873FF61E3992696DF203 /* Pods-iWakkaRecordsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 023565A920D9CFED00575CE1 /* Build configuration list for PBXNativeTarget "iWakkaRecords" */;
 			buildPhases = (
+				3967FD116639B7B546F1E726 /* [CP] Check Pods Manifest.lock */,
 				0235657A20D9CFEC00575CE1 /* Sources */,
 				0235657B20D9CFEC00575CE1 /* Frameworks */,
 				0235657C20D9CFEC00575CE1 /* Resources */,
@@ -152,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 023565AC20D9CFED00575CE1 /* Build configuration list for PBXNativeTarget "iWakkaRecordsTests" */;
 			buildPhases = (
+				0B6864EAEE2FCC3AEEAD0DF9 /* [CP] Check Pods Manifest.lock */,
 				0235659120D9CFED00575CE1 /* Sources */,
 				0235659220D9CFED00575CE1 /* Frameworks */,
 				0235659320D9CFED00575CE1 /* Resources */,
@@ -170,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 023565AF20D9CFED00575CE1 /* Build configuration list for PBXNativeTarget "iWakkaRecordsUITests" */;
 			buildPhases = (
+				F271C707655BAC2D4837AB1A /* [CP] Check Pods Manifest.lock */,
 				0235659C20D9CFED00575CE1 /* Sources */,
 				0235659D20D9CFED00575CE1 /* Frameworks */,
 				0235659E20D9CFED00575CE1 /* Resources */,
@@ -196,6 +249,7 @@
 				TargetAttributes = {
 					0235657D20D9CFEC00575CE1 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					0235659420D9CFED00575CE1 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -232,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023565B920D9D7C300575CE1 /* test.xlsx in Resources */,
 				0235658F20D9CFED00575CE1 /* LaunchScreen.storyboard in Resources */,
 				0235658C20D9CFED00575CE1 /* Assets.xcassets in Resources */,
 				0235658720D9CFED00575CE1 /* Main.storyboard in Resources */,
@@ -254,11 +309,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B6864EAEE2FCC3AEEAD0DF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iWakkaRecordsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3967FD116639B7B546F1E726 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iWakkaRecords-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F271C707655BAC2D4837AB1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iWakkaRecordsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0235657A20D9CFEC00575CE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023565B520D9D0A900575CE1 /* XlsxWrapper.m in Sources */,
 				0235658420D9CFED00575CE1 /* ViewController.swift in Sources */,
 				0235658A20D9CFED00575CE1 /* iWakkaRecords.xcdatamodeld in Sources */,
 				0235658220D9CFED00575CE1 /* AppDelegate.swift in Sources */,
@@ -432,17 +545,22 @@
 		};
 		023565AA20D9CFED00575CE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79A20810B749F172E3149F58 /* Pods-iWakkaRecords.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8H3EBXT3AC;
 				INFOPLIST_FILE = iWakkaRecords/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.masakazu.iWakkaRecords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iWakkaRecords/iWakkaRecords-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,17 +568,21 @@
 		};
 		023565AB20D9CFED00575CE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EACB5DAA8C25D75F9C961022 /* Pods-iWakkaRecords.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8H3EBXT3AC;
 				INFOPLIST_FILE = iWakkaRecords/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.masakazu.iWakkaRecords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iWakkaRecords/iWakkaRecords-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +590,7 @@
 		};
 		023565AD20D9CFED00575CE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AFF6B8B1D9E0B4BB03CBF20 /* Pods-iWakkaRecordsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +612,7 @@
 		};
 		023565AE20D9CFED00575CE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F6100F09F975041031F78A /* Pods-iWakkaRecordsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +634,7 @@
 		};
 		023565B020D9CFED00575CE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4D1B848408704D2C98FB552 /* Pods-iWakkaRecordsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +655,7 @@
 		};
 		023565B120D9CFED00575CE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4FA873FF61E3992696DF203 /* Pods-iWakkaRecordsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
